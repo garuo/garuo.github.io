@@ -123,6 +123,9 @@ ul{
 }
 
 @media(max-width:600px){
+  header a{
+    display: none;
+  }
   .contents-container{
     border-top: snow solid 0.3px;
     /* background: wheat; */
