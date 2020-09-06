@@ -60,6 +60,11 @@ footer{
 }
 
 
+.to_blog{
+  height: 38px;
+  display: none;
+}
+
 ul{
   list-style-image: url(favicon.ico);
 }
@@ -136,6 +141,10 @@ ul{
   }
   .grid{
     display: none;
+  }
+
+  .to_blog {
+    display: block;
   }
 }
 
