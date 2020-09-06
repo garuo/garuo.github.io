@@ -1,34 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>prctice programing</title>
+  
+  <title>garugのHP</title>
+
+  <link rel="stylesheet" href="style.css">
+
+<!-- ブートストラップ・JQuery・fontawsome -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<!--CSSスタイルシート・ファヴィコン  -->
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
 </head>
-
+<body>
   <header>
-
+    <img src="favicon.ico" alt="favicon" width="48" height="48">  
+    
+    <h1> garugのHP</h1>
+    <!-- <strong> -->
+      <a href="https://garug.hatenablog.com/" target="_blank">garugのブログへどうぞ！</a>
+    <!-- </strong> -->
+    <!-- <p>blog</p> -->
   </header>
-
-  <body>
-    <h1>つれづれ</h1>
-
-    <ul>
-      <li>utbe</li>
-        まこなり
-        いけはや
-        両学長
-
-      <li>english</li>
-        bizmates
-        podcast
-            バイリンガルニュース
-            TED
-      <li>programing</li>
-        progate
+  
+  <!-- Ricty Diminshed -->
+  <main>
+    <ul class="contents-container btn-book">
+        <li><a href="https://garug.hatenablog.com/archive/category/%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%81%AE%E6%9C%AC" target="_blank">おすすめの本</a> </li>
+        <li><a href="https://garug.hatenablog.com/archive/category/%E8%8B%B1%E4%BC%9A%E8%A9%B1" target="_blank">英語</a></li>
+        <li><a href="https://garug.hatenablog.com/archive/category/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0" target="_blank">プログラミング</a></li>
     </ul>
+  
+    <div class="grid">
+      <div class="box">
+          <p><a href="https://garug.hatenablog.com/archive/category/%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%81%AE%E6%9C%AC" target="_blank">おすすめの本</a></p>
+          <a href="">・自分の中に毒を持て</a>
+          <a href="">・「タルムード」金言集</a>
+          <a href="">・道をひらく</a>
+          <a href="">・もしドラ</a>
+          <a href="">・経営者になるためのノート</a>
+          <a href="">・7つの習慣</a>
+          <a href="">・ブルー・オーシャン戦略</a>
+          <a href="">・営業の魔法</a>
+          <a href="">・ゼロ秒思考</a>
+          <br>
+      </div>
+      <div class="box">
+        <p><a href="https://garug.hatenablog.com/archive/category/%E8%8B%B1%E4%BC%9A%E8%A9%B1" target="_blank">英語</a></p>
+        <a href="">・自分の中に毒を持て</a>
+        <a href="">・「タルムード」金言集</a>
+      </div>
+      <div class="box">
+        <p><a href="https://garug.hatenablog.com/archive/category/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0" target="_blank">プログラミング</a></p>
+        <a href="">・自分の中に毒を持て</a>
+        <a href="">・「タルムード」金言集</a>
+      </div>
+      <!-- <div>box4</div>
+      <div>box5</div> -->
 
-  </body>
+    </div>
+
+    
+    
+    
+    
+    <div class="form_parts">  
+      <!-- <label>名前
+        <input type="text" value="Garug">
+        <input type="text" placeholder="placehoder"> -->
+        <!--      <button>ok</button> -->
+        <!-- </label> -->
+        <br>
+        <!-- <label>
+          <select name="" id="">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+          </select>
+        </label> -->
+        
+        <!-- <form action="process.php" method="POST">
+          <label for="">投稿者<input type="text" name="username"></label>
+          <label for="">コメント<input type="text" name="coment"></label>
+          <button>投稿</button>
+        </form> -->
+        
+        <br>
+        <!-- <br><textarea></textarea> -->
+        
+        <!-- <fieldset>
+          <legend>ブログのコンテンツ</legend>
+          <label><input type="checkbox">本 </label>
+          <label><input type="checkbox">プログラミング </label>
+          <label><input type="checkbox">英語</label>
+        </fieldset> -->
+        
+        <!-- <fieldset>
+          <legend>ブログのコンテンツ</legend>
+          同一のname属性がないと、複数選択できてしまう
+          <label><input type="radio" name="contents">本 </label>
+          <label><input type="radio" name="contents">プログラミング </label>
+          <label><input type="radio" name="contents">英語</label>
+        </fieldset> -->
+        
+        <!-- <div>
+          最新のchromeとかでないとダメなやつみたい 
+          <p><input type="color"></p>  
+          <p><input type="date"></p>  
+          <p><input type="number"></p>  
+          <p><input type="range"></p>  
+        </div> -->
+        
+      </div>  
+      
+      <!-- テーブルの作り方　ｔ＋row/data -->
+      <div class="table">
+        <table border="1"cellspacing="0">
+          <thead class="table_h">
+            <tr>
+              <th>年月</th>
+              <th>できごと</th>
+            </tr>
+          </thead>
+          
+          <tbody class="table_b">
+            <tr>
+              <td>2020.6</td>
+              <td>ブログ開設</td>
+            </tr>
+            <tr>
+              <td>2020.6</td>
+              <td>Progate開始・終了</td>
+          </tr>
+          <tr>
+            <td>2020.8</td>
+            <td>ドットインストール開始</td>
+          </tr>
+          <tr>
+            <td>2020.9</td>
+            <td>ホームページ開設</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+    </div>
+    
+    <!-- <div>
+      <nav>left</nav>000
+      <main>center</main>
+      <aside>right</aside>
+    </div> -->
+
+    <!-- アニメーションだよ！ -->
+    <div class="animation-box">
+      
+    </div>
+    
+    <!-- ページ内リンク　#top　でページ先頭にリンク　＊…#だけでもok -->
+    <div  class="to_top">
+      <a href="#top">先頭に戻る</a></p>
+      </div>
+      
+    </main>
+  
+    <footer>Copyright ©garugのHP All rights reserved.</footer>
+   
+  
+</body>
 </html>
